@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46126D1525B92A4B007DC2AF /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46126D1325B92A49007DC2AF /* Sandwich.swift */; };
+		46126D1625B92A4B007DC2AF /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46126D1325B92A49007DC2AF /* Sandwich.swift */; };
+		46126D1725B92A4B007DC2AF /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46126D1425B92A4B007DC2AF /* Sandwiches.xcassets */; };
+		46126D1825B92A4B007DC2AF /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46126D1425B92A4B007DC2AF /* Sandwiches.xcassets */; };
 		468FF6E325B921640007C646 /* SandwichesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FF6D025B921600007C646 /* SandwichesApp.swift */; };
 		468FF6E425B921640007C646 /* SandwichesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FF6D025B921600007C646 /* SandwichesApp.swift */; };
 		468FF6E525B921640007C646 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FF6D125B921600007C646 /* ContentView.swift */; };
@@ -16,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46126D1325B92A49007DC2AF /* Sandwich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		46126D1425B92A4B007DC2AF /* Sandwiches.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sandwiches.xcassets; sourceTree = "<group>"; };
 		468FF6D025B921600007C646 /* SandwichesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichesApp.swift; sourceTree = "<group>"; };
 		468FF6D125B921600007C646 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		468FF6D225B921640007C646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +66,8 @@
 				468FF6D025B921600007C646 /* SandwichesApp.swift */,
 				468FF6D125B921600007C646 /* ContentView.swift */,
 				468FF6D225B921640007C646 /* Assets.xcassets */,
+				46126D1325B92A49007DC2AF /* Sandwich.swift */,
+				46126D1425B92A4B007DC2AF /* Sandwiches.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -168,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46126D1725B92A4B007DC2AF /* Sandwiches.xcassets in Resources */,
 				468FF6E725B921640007C646 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46126D1825B92A4B007DC2AF /* Sandwiches.xcassets in Resources */,
 				468FF6E825B921640007C646 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +199,7 @@
 			files = (
 				468FF6E525B921640007C646 /* ContentView.swift in Sources */,
 				468FF6E325B921640007C646 /* SandwichesApp.swift in Sources */,
+				46126D1525B92A4B007DC2AF /* Sandwich.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +209,7 @@
 			files = (
 				468FF6E625B921640007C646 /* ContentView.swift in Sources */,
 				468FF6E425B921640007C646 /* SandwichesApp.swift in Sources */,
+				46126D1625B92A4B007DC2AF /* Sandwich.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
